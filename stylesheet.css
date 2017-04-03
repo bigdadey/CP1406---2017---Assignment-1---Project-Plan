@@ -1,0 +1,140 @@
+body {
+    background-image: url("Images/sand(bg).jpg");
+    background-color: #cccccc;
+} 
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    height: 50px;
+    background: dodgerblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #202020
+}
+header h1{ 
+      margin-left: 115px;
+        width: auto;
+    padding-top: 7px;
+}
+header img {
+    float: left;
+    background:dodgerblue;
+    border-radius: 10px;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    box-shadow: 5px 5px 10px #202020
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-width:thin;
+    border-style:solid;
+    border-color: black
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    width: 180px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover, nav a:active {
+    background-color:darkblue
+}
+body article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    background: dodgerblue;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #202020
+}
+aside {
+    float: right;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+aside img{
+    display: inline-block;
+    box-shadow: 5px 5px 10px #202020
+}
+article h3{
+    font-weight:bolder ;
+    width: 600px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
+}
+article p{
+    width: 600px;
+    color: #FFFFFF;
+}
+article ul{
+        color: #FFFFFF;
+    list-style-type: none;
+}
+    
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    margin-top: 15px;
+    background: dodgerblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #202020
+}
+footer address {
+    font-size : 16px;
+    text-align : center;
+    color: #FFFFFF;
+    padding: 1% 0;
+    text-shadow: 1px 1px 0px #202020
+}
+	table.tableizer-table {
+	border: 1px solid #FFF; 
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding-bottom: 20px;
+    
+} 
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #FFF;
+    color: #FFF;
+}
+.tableizer-table th {
+	background-color: #104E8B; 
+	color: #FFF;
+	font-weight: bold;
+}
+.form-horizontal {
+    color: #FFF;
+    margin-right: auto;
+    width: 500px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
